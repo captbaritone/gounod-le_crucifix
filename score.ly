@@ -49,14 +49,14 @@ sopranonotes = \relative c'' {
   c4\cresc c8 c c r r c\f |
   c8. b16 b4~ b8 r f'4\ff | % Rehearsal 20
   f8. ees16 ees4~ ees8 ees\dim d c |
-  b8 r g4 bes4. a8 |
+  b8 r g4 b4. a8 |
   g2~ g4 r |
   g2\ff aes?8( bes ) c( d ) |
   g,2~ g8 r r4 | % Rehearsal 25
   R1 \bar "||"
   \key c \major
   r2 g4\p g8 g |
-  fis4~ fis8 fis g c b g |
+  fis4~ fis8 fis g c bes g |
   fis4~ fis8 r g4\cresc g8 g |
   a4. d8 e d b g | % Rehearsal 30
   g8 r e'2\f d8 e |
@@ -65,7 +65,7 @@ sopranonotes = \relative c'' {
   g8 r e'4 d c |
   c4~ c8 r e,4 a8. g16 | % Rehearsal 35 
   << g1 { s2 s2\dim } >> |
-  c8\p r g( a ) g2~\< |
+  c,8\p r g'( a ) g2~\< |
   g8\! r d'( c ) c\>( b ) a( g ) |
   c\p r g( a ) g2~\< |
   g8\! r e'( d ) c\>( b ) a( g ) | % Rehearsal 40
@@ -112,7 +112,7 @@ altonotes = \relative c' {
   g4 g8 g g4( f8 ) a |
   a4 a8 a a4( g8 ) g | 
   d4 d8 d e4 fis8 g | % Rehearsal 5
-  fis2 g4 r8 ees |
+  fis2 g4 r8 ees? |
   ees4 d8 c b4 c8\dim d |
   c2( b ) |
   c~\p c8 r r4 |
@@ -139,7 +139,7 @@ altonotes = \relative c' {
   dis4~ dis8 r e4\cresc e8 e |
   d?4 a' g f | % Rehearsal 30
   e8 r g4\f a b |
-  c8 r e,4 fis g |
+  c8 r e,4 fis gis |
   a8 r a4 g f |
   e8 r e4 fis fis |
   g~ g8 r e4 e8. e16 | % Rehearsal 35
@@ -194,7 +194,7 @@ tenornotes = \relative c' {
   d4 d8 d d4~ d8 bes |
   g4 g8 g g4 a8 bes | % Rehsearsal 5
   c2 bes4 r8 bes |
-  aes4 aes8 aes g4 c8\dim aes |
+  aes?4 aes8 aes g4 c8\dim aes |
   << {
     \voiceOne g1
   } \new Voice {
@@ -394,7 +394,7 @@ bassnotes = \relative c' {
     \voiceTwo ees2~ ees8 ees8 ees ees
   } >> \oneVoice |
   des4~ des8 r des4 des8 des |
-  c4 ges' f8 ees d f | % Rehearsal 15
+  c4 ges' f8 ees d? f | % Rehearsal 15
   ees r ees4\dim ees ees |
   << {
     \voiceOne ees2~\p ees4
