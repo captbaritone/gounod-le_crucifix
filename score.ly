@@ -3,13 +3,13 @@
 \header {
   title = "Le Crucifix"
   composer = \markup {
-    \left-align \column {
+    \right-column {
     "Charles Gounod"
     "(1818-1893)"
     }
   }
   poet = \markup {
-    \left-align \column {
+    \left-column {
     "Vicrot Hugo"
     "(1802-1885)"
     }
