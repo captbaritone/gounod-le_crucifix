@@ -76,22 +76,22 @@ sopranonotes = \relative c'' {
   c~ c4 r \bar "|."
 }
 sopranowords = \lyricmode { 
-  Vouse qui pleu -- rez, vous qui pleu -- rez,
+  Vous qui pleu -- rez, vous qui pleu -- rez,
   Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
   ve -- nez à ce Dieu, car il pleu -- re! 
-  Ve -- nez à ce Dieu, car il plau -- re,
+  Ve -- nez à ce Dieu, car il pleu -- re,
   % Rehearsal 10
   Vous qui souf -- fez! vous qui souf -- fez,
   Ve -- nez ve -- nez à lui!
   Vous qui souf -- fez, 
   % Rehearsal 15
   Ve nez, ve -- nez à lui,
-  car li gué -- rir!
+  car il gué -- rit!
   Vous qui trem -- blez!...
   vous qui tem -- blez!...
   % Rehearsal 20 
   Ve -- nez à lui! Ve -- nez à lui! ve -- nez à lui,
-  car il qou -- rir!
+  car il qou -- rit!
   Vous qui pas -- sez!...
   % Rehearsal 25
   vous qui pas -- sez, Ve -- nez, ve -- nez à lui!
@@ -140,11 +140,11 @@ altonotes = \relative c' {
   d?4 a' g f | % Rehearsal 30
   e8 r g4\f a b |
   c8 r e,4 fis gis |
-  a8 r a4 g f |
+  a8 r a4 g? f? |
   e8 r e4 fis fis |
   g~ g8 r e4 e8. e16 | % Rehearsal 35
   << d1 { s2 s\dim } >> |
-  c8\p r r4 r e\< |
+  c4\p r4 r e\< |
   f\! f f\> f |
   e2~\p e8 r e4\p\< |
   f\! f f\> f | % Rehearsal 40
@@ -156,22 +156,22 @@ altonotes = \relative c' {
 
 }
 altowords = \lyricmode {
-  Vouse qui pleu -- rez, vous qui pleu -- rez,
+  Vous qui pleu -- rez, vous qui pleu -- rez,
   Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
   ve -- nez à ce Dieu, car il pleu -- re! 
-  Ve -- nez à ce Dieu, car il plau -- re,
+  Ve -- nez à ce Dieu, car il pleu -- re,
   % Rehearsal 10
   Vous qui souf -- fez! vous qui souf -- fez,
   Ve -- nez ve -- nez à lui!
   Vous qui souf -- fez, 
   % Rehearsal 15
   Ve nez, ve -- nez à lui,
-  car li gué -- rir!
+  car il gué -- rit!
   Vous qui trem -- blez!...
   vous qui tem -- blez!...
   % Rehearsal 20 
   Ve -- nez à lui! Ve -- nez à lui! ve -- nez à lui,
-  car il qou -- rir!
+  car il qou -- rit!
   Vous qui pas -- sez!...
   % Rehearsal 25
   vous qui pas -- sez, Ve -- nez, à lui!
@@ -300,10 +300,10 @@ tenornotes = \relative c' {
     \voiceTwo g1
   } >>
   << {
-    \voiceOne c8\p
+    \voiceOne c4\p
   } \new Voice {
     \voiceTwo g
-  } >> \oneVoice r r4 r << {
+  } >> \oneVoice r r << {
     \voiceOne c4\<
   } \new Voice {
     \voiceTwo g
@@ -338,22 +338,22 @@ tenornotes = \relative c' {
   c2~ c4 r |
 }
 tenorwords = \lyricmode {
-  Vouse qui pleu -- rez, vous qui pleu -- rez,
+  Vous qui pleu -- rez, vous qui pleu -- rez,
   Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
   ve -- nez à ce Dieu, car il pleu -- re! 
-  Ve -- nez à ce Dieu, car il plau -- re,
+  Ve -- nez à ce Dieu, car il pleu -- re,
   % Rehearsal 10
   Vous qui souf -- fez! Vous qui souf -- fez! vous qui souf -- fez,
   Ve -- nez ve -- nez à lui!
   Vous qui souf -- fez, 
   % Rehearsal 15
   Ve nez, ve -- nez à lui,
-  car li gué -- rir!
+  car il gué -- rit!
   Vous qui trem -- blez!...
   vous qui tem -- blez!...
   % Rehearsal 20 
   Ve -- nez à lui! Ve -- nez à lui! ve -- nez à lui,
-  car il qou -- rir!
+  car il qou -- rit!
   Vous qui pas -- sez!...
   % Rehearsal 25
   Vous qui pas -- sez!...
@@ -438,10 +438,10 @@ bassnotes = \relative c' {
     \voiceTwo g,1
   } >> \oneVoice |
   << {
-    \voiceOne e'8\p
+    \voiceOne e'4\p
   } \new Voice {
     \voiceTwo c
-  } >> \oneVoice r r4 r << {
+  } >> \oneVoice r r << {
     \voiceOne e4\<
   } \new Voice {
     \voiceTwo c
@@ -484,22 +484,22 @@ bassnotes = \relative c' {
   } >> \oneVoice r4 |
 }
 basswords = \lyricmode {
-  Vouse qui pleu -- rez, vous qui pleu -- rez,
+  Vous qui pleu -- rez, vous qui pleu -- rez,
   Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
   ve -- nez à ce Dieu, car il pleu -- re! 
-  Ve -- nez à ce Dieu, car il plau -- re,
+  Ve -- nez à ce Dieu, car il pleu -- re,
   % Rehearsal 10
   Vous qui souf -- fez! vous qui souf -- fez,
   Ve -- nez ve -- nez à lui!
   Vous qui souf -- fez, 
   % Rehearsal 15
   Ve nez, ve -- nez à lui,
-  car li gué -- rir!
+  car il gué -- rit!
   Vous qui trem -- blez!...
   vous qui tem -- blez!...
   % Rehearsal 20 
   Ve -- nez à lui! Ve -- nez à lui! ve -- nez à lui,
-  car il qou -- rir!
+  car il qou -- rit!
   Vous qui pas -- sez!...
   % Rehearsal 25
   Vous qui pas -- sez!...
