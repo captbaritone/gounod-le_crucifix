@@ -18,7 +18,7 @@
   instrument = "for SATB Chorus, a cappella"
   copyright = "Public Domain"
   enteredby = "Jordan Eldredge <jordaneldredge@gmail.com"
-  tagline = ##f
+  tagline = "v0.1 send corrections to jordaneldredge@gmail.com"
 }
 global = {
   \key es \major
@@ -144,7 +144,7 @@ altonotes = \relative c' {
   e8 r e4 fis fis |
   g~ g8 r e4 e8. e16 | % Rehearsal 35
   << d1 { s2 s\dim } >> |
-  c8 r r4 r e\< |
+  c8\p r r4 r e\< |
   f\! f f\> f |
   e2~\p e8 r e4\p\< |
   f\! f f\> f | % Rehearsal 40
