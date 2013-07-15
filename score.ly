@@ -2,10 +2,20 @@
 
 \header {
   title = "Le Crucifix"
-  composer = "Charles Gounod (1818-1893)"
-  poet = "Victor Hugo (1802-1885)"
-  texttranslator = "Richard Benefield" % Actually the translator
-  instrument = "For Mixed Chorus (SATB)"
+  composer = \markup {
+    \left-align \column {
+    "Charles Gounod"
+    "(1818-1893)"
+    }
+  }
+  poet = \markup {
+    \left-align \column {
+    "Vicrot Hugo"
+    "(1802-1885)"
+    }
+  }
+  texttranslator = "Richard Benefield"
+  instrument = "for SATB Chorus, a cappella"
   copyright = "Public Domain"
   enteredby = "Jordan Eldredge <jordaneldredge@gmail.com"
   tagline = ##f
