@@ -29,6 +29,7 @@ global = {
   \override DynamicTextSpanner #'style = #'none
 }
 sopranonotes = \relative c'' {
+  \tempo "Adagio"
   g4\f g8 g g4( f8  ) r8 |
   aes4 aes8 aes aes4( g8 ) g |
   c4 bes8 c8 a4~ a8 a |
