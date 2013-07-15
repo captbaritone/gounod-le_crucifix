@@ -1,6 +1,7 @@
 \version "2.16.2"
 
 \header {
+  dedication = "à mon ami F. Bazin"
   title = "Le Crucifix"
   composer = \markup {
     \right-column {
