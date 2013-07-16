@@ -20,7 +20,7 @@
   % use it as a convenient alternative
   subtitle = "for SATB Chorus, a cappella"
   copyright = "Public Domain"
-  enteredby = "Jordan Eldredge <jordaneldredge@gmail.com"
+  enteredby = "Jordan Eldredge <jordaneldredge@gmail.com>"
   tagline = "v0.1 send corrections to jordaneldredge@gmail.com"
 }
 global = {
