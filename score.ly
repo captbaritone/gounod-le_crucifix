@@ -16,7 +16,9 @@
     }
   }
   texttranslator = "Richard Benefield"
-  instrument = "for SATB Chorus, a cappella"
+  % Could use "instrument" but subtitle does not display on every page, so we
+  % use it as a convenient alternative
+  subtitle = "for SATB Chorus, a cappella"
   copyright = "Public Domain"
   enteredby = "Jordan Eldredge <jordaneldredge@gmail.com"
   tagline = "v0.1 send corrections to jordaneldredge@gmail.com"
