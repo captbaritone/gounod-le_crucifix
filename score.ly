@@ -1,5 +1,6 @@
 \version "2.16.2"
 
+rit = \markup{ \italic \larger "rit." }
 \header {
   dedication = "à mon ami F. Bazin"
   title = "Le Crucifix"
@@ -75,7 +76,7 @@ sopranonotes = \relative c'' {
   g8\! r e'( d ) c\>( b ) a( g ) | % Rehearsal 40
   c4\p r g\ff g8. g16 |
   a1 |
-  g4 r c\ff c8.\mark "rit." c16 |
+  g4 r c\ff c8.^\rit c16 |
   c2( b ) |
   c~ c4 r \bar "|."
 }
@@ -154,7 +155,7 @@ altonotes = \relative c' {
   f\! f f\> f | % Rehearsal 40
   e\p r g\ff g8. g16 |
   g2( f ) |
-  e4 r g\ff g8.\mark "rit." g16 |
+  e4 r g\ff g8.^\rit g16 |
   g2( f ) |
   e2~ e4 r |
 
@@ -337,7 +338,7 @@ tenornotes = \relative c' {
     \voiceTwo g
   } >> \oneVoice r e'\ff e8. e16 |
   c1 |
-  c4 r e\ff e8.\mark "rit." e16 |
+  c4 r e\ff e8.^\rit e16 |
   d4( e16 d c e d2 ) |
   c2~ c4 r |
 }
@@ -475,7 +476,7 @@ bassnotes = \relative c' {
     \voiceTwo c
   } >> \oneVoice r c'4\ff c8. c16 |
   f,1 |
-  c4 r c'\ff c8. c16 |
+  c4 r c'\ff c8.^\rit c16 |
   << {
     \voiceOne g1
   } \new Voice {
