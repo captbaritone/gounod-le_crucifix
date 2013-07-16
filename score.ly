@@ -550,7 +550,13 @@ basswords = \lyricmode {
     >>
   >>
   \layout {
-    %
+    \context {
+      \Score
+      \override SpacingSpanner
+        % Not really sure what 1 100 means, but it seems to be giving a nice
+        % horizontal spacing
+        #'base-shortest-duration = #(ly:make-moment 1 100)
+    }
   }
   \midi {
     \context {
