@@ -84,10 +84,10 @@ sopranowords = \lyricmode {
   Vous qui pleu -- rez, vous qui pleu -- rez,
   Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
   ve -- nez à ce Dieu, car il pleu -- re! 
-  Ve -- nez à ce Dieu, car il pleu -- re,
+  Ve -- nez à ce Dieu, car il pleu -- re.
   % Rehearsal 10
   Vous qui souf -- fez! vous qui souf -- fez,
-  Ve -- nez ve -- nez à lui!
+  Ve -- nez, ve -- nez à lui!
   Vous qui souf -- fez, 
   % Rehearsal 15
   Ve nez, ve -- nez à lui,
@@ -99,10 +99,10 @@ sopranowords = \lyricmode {
   car il qou -- rit!
   Vous qui pas -- sez!...
   % Rehearsal 25
-  vous qui pas -- sez, Ve -- nez, ve -- nez à lui!
+  Vous qui pas -- sez, Ve -- nez, ve -- nez à lui!
   Vous qui pas -- sez,
   % Rehearsal 30
-  Ve -- nez, ve -- nez à lui!
+  Ve -- nez ve -- nez à lui!
   Vous qui pas -- sez, vous qui pas -- sez, Ve -- nez à lui!
   ve -- nez à lui!
   % Rehearsal 35
@@ -164,10 +164,10 @@ altowords = \lyricmode {
   Vous qui pleu -- rez, vous qui pleu -- rez,
   Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
   ve -- nez à ce Dieu, car il pleu -- re! 
-  Ve -- nez à ce Dieu, car il pleu -- re,
+  Ve -- nez à ce Dieu, car il pleu -- re.
   % Rehearsal 10
   Vous qui souf -- fez! vous qui souf -- fez,
-  Ve -- nez ve -- nez à lui!
+  Ve -- nez, ve -- nez à lui!
   Vous qui souf -- fez, 
   % Rehearsal 15
   Ve nez, ve -- nez à lui,
@@ -179,10 +179,10 @@ altowords = \lyricmode {
   car il qou -- rit!
   Vous qui pas -- sez!...
   % Rehearsal 25
-  vous qui pas -- sez, Ve -- nez, à lui!
+  Vous qui pas -- sez, Ve -- nez, à lui!
   Vous qui pas -- sez,
   % Rehearsal 30
-  Ve -- nez, à lui!
+  Ve -- nez à lui!
   Vous qui pas -- sez, vous qui pas -- sez, Ve -- nez à lui!
   ve -- nez à lui!
   % Rehearsal 35
@@ -346,10 +346,10 @@ tenorwords = \lyricmode {
   Vous qui pleu -- rez, vous qui pleu -- rez,
   Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
   ve -- nez à ce Dieu, car il pleu -- re! 
-  Ve -- nez à ce Dieu, car il pleu -- re,
+  Ve -- nez à ce Dieu, car il pleu -- re.
   % Rehearsal 10
   Vous qui souf -- fez! Vous qui souf -- fez! vous qui souf -- fez,
-  Ve -- nez ve -- nez à lui!
+  Ve -- nez, ve -- nez à lui!
   Vous qui souf -- fez, 
   % Rehearsal 15
   Ve nez, ve -- nez à lui,
@@ -362,10 +362,10 @@ tenorwords = \lyricmode {
   Vous qui pas -- sez!...
   % Rehearsal 25
   Vous qui pas -- sez!...
-  vous qui pas -- sez, Ve -- nez, à lui!
+  Vous qui pas -- sez, Ve -- nez, à lui!
   Vous qui pas -- sez,
   % Rehearsal 30
-  Ve -- nez, à lui!
+  Ve -- nez à lui!
   Vous qui pas -- sez, vous qui pas -- sez, Ve -- nez à lui!
   ve -- nez à lui!
   % Rehearsal 35
@@ -492,10 +492,10 @@ basswords = \lyricmode {
   Vous qui pleu -- rez, vous qui pleu -- rez,
   Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
   ve -- nez à ce Dieu, car il pleu -- re! 
-  Ve -- nez à ce Dieu, car il pleu -- re,
+  Ve -- nez à ce Dieu, car il pleu -- re.
   % Rehearsal 10
   Vous qui souf -- fez! vous qui souf -- fez,
-  Ve -- nez ve -- nez à lui!
+  Ve -- nez, ve -- nez à lui!
   Vous qui souf -- fez, 
   % Rehearsal 15
   Ve nez, ve -- nez à lui,
@@ -508,10 +508,10 @@ basswords = \lyricmode {
   Vous qui pas -- sez!...
   % Rehearsal 25
   Vous qui pas -- sez!...
-  vous qui pas -- sez, Ve -- nez, à lui!
+  Vous qui pas -- sez, Ve -- nez, à lui!
   Vous qui pas -- sez,
   % Rehearsal 30
-  Ve -- nez, à lui!
+  Ve -- nez à lui!
   Vous qui pas -- sez, vous qui pas -- sez, Ve -- nez à lui!
   ve -- nez à lui!
   % Rehearsal 35
