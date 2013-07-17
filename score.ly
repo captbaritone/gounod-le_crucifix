@@ -50,8 +50,14 @@ sopranonotes = \relative c'' {
   ees,4 ees' des8 c bes aes | % Rehearsal 15
   c r aes4\dim aes g |
   aes2~\p aes4 r |
-  c\p\< c8 c\! c r r4 |
-  c4\cresc c8 c c r r c\f |
+  c\p\< c8 c\! c
+  \tag #'english { c }
+  \tag #'french { r }
+  r4 |
+  c4\cresc c8 c c 
+  \tag #'english { c }
+  \tag #'french { r }
+  r c\f |
   c8. b16 b4~ b8 r f'4\ff | % Rehearsal 20
   f8. ees16 ees4~ ees8 ees\dim d c |
   b8 r g4 b4. a8 |
@@ -81,35 +87,68 @@ sopranonotes = \relative c'' {
   c~ c4 r \bar "|."
 }
 sopranowords = \lyricmode { 
-  Vous qui pleu -- rez, vous qui pleu -- rez,
-  Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
-  ve -- nez à ce Dieu, car il pleu -- re! 
-  Ve -- nez à ce Dieu, car il pleu -- re.
-  % Rehearsal 10
-  Vous qui souf -- fez! vous qui souf -- fez,
-  Ve -- nez, ve -- nez à lui!
-  Vous qui souf -- fez, 
-  % Rehearsal 15
-  Ve nez, ve -- nez à lui,
-  car il gué -- rit!
-  Vous qui trem -- blez!...
-  vous qui tem -- blez!...
-  % Rehearsal 20 
-  Ve -- nez à lui! Ve -- nez à lui! ve -- nez à lui,
-  car il qou -- rit!
-  Vous qui pas -- sez!...
-  % Rehearsal 25
-  Vous qui pas -- sez, Ve -- nez, ve -- nez à lui!
-  Vous qui pas -- sez,
-  % Rehearsal 30
-  Ve -- nez ve -- nez à lui!
-  Vous qui pas -- sez, vous qui pas -- sez, Ve -- nez à lui!
-  ve -- nez à lui!
-  % Rehearsal 35
-  car id de -- meu -- re! Ve -- nez ve -- nez à lui!
-  ve -- nez, 
-  % Rehearsal 40
-  ve -- nez à  lui! car il de -- meu -- re! car il de -- meu -- re! 
+  \tag #'french {
+    Vous qui pleu -- rez, vous qui pleu -- rez,
+    Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
+    ve -- nez à ce Dieu, car il pleu -- re! 
+    Ve -- nez à ce Dieu, car il pleu -- re.
+    % Rehearsal 10
+    Vous qui souf -- fez! vous qui souf -- fez,
+    Ve -- nez, ve -- nez à lui!
+    Vous qui souf -- fez, 
+    % Rehearsal 15
+    Ve nez, ve -- nez à lui,
+    car il gué -- rit!
+    Vous qui trem -- blez!...
+    vous qui tem -- blez!...
+    % Rehearsal 20 
+    Ve -- nez à lui! Ve -- nez à lui! ve -- nez à lui,
+    car il qou -- rit!
+    Vous qui pas -- sez!...
+    % Rehearsal 25
+    Vous qui pas -- sez, Ve -- nez, ve -- nez à lui!
+    Vous qui pas -- sez,
+    % Rehearsal 30
+    Ve -- nez ve -- nez à lui!
+    Vous qui pas -- sez, vous qui pas -- sez, Ve -- nez à lui!
+    ve -- nez à lui!
+    % Rehearsal 35
+    car id de -- meu -- re! Ve -- nez ve -- nez à lui!
+    ve -- nez, 
+    % Rehearsal 40
+    ve -- nez à  lui! car il de -- meu -- re! car il de -- meu -- re! 
+  }
+  \tag #'english {
+    All you who mourn, all you who mourn,
+    Come now to the Lord, come now to the Lord,
+    come now to the Lord, for He mour -- neth!
+    Come now to the Lord, for He mour -- neth.
+    % Rehearsal 10
+    All you who ache! all you who ache,
+    Come now, come now to Him!
+    All you who ache,
+    % Rehearsal 15
+    Come now come now to Him,
+    for he doth soothe!
+    All you who trem -- ble!...
+    all you who trem -- ble!...
+    % Rehearsal 20 
+    Come now to Him! Come now to Him! come now to Him,
+    for he doth calm!
+    All you who die!...
+    % Rehearsal 25
+    All you who die, Come now, come now to Him!
+    All you who die,
+    % Rehearsal 30
+    Come now come now to Him!
+    All you who die, all you who die, Come now to Him!
+    come now to Him!
+    % Rehearsal 35
+    for he en -- du -- reth! Come now, come now to Him!
+    come now,
+    % Rehearsal 40
+    come now to Him! for he en -- du -- reth! for he en -- du -- reth!
+  }
 }
 altonotes = \relative c' {
   es4\f es8 es es4( d8 ) r8 |
@@ -129,8 +168,14 @@ altonotes = \relative c' {
   ees4 aes aes8 aes aes aes | % Rehearsal 15
   aes r ees4\dim f ees |
   ees2~\p ees4 r |
-  ees4\p\< ees8 ees\! e r r4 |
-  f\cresc f8 f fis r r fis\f |
+  ees4\p\< ees8 ees\! e
+  \tag #'english { e }
+  \tag #'french { r }
+  r4 |
+  f\cresc f8 f fis
+  \tag #'english { fis }
+  \tag #'french { r }
+  r fis\f |
   g8. g16 g4~ g8 r g4\ff | % Rehearsal 20
   g8. g16 g4~ g8 g\dim g g |
   g r d4 fis4. fis8 |
@@ -161,35 +206,68 @@ altonotes = \relative c' {
 
 }
 altowords = \lyricmode {
-  Vous qui pleu -- rez, vous qui pleu -- rez,
-  Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
-  ve -- nez à ce Dieu, car il pleu -- re! 
-  Ve -- nez à ce Dieu, car il pleu -- re.
-  % Rehearsal 10
-  Vous qui souf -- fez! vous qui souf -- fez,
-  Ve -- nez, ve -- nez à lui!
-  Vous qui souf -- fez, 
-  % Rehearsal 15
-  Ve nez, ve -- nez à lui,
-  car il gué -- rit!
-  Vous qui trem -- blez!...
-  vous qui tem -- blez!...
-  % Rehearsal 20 
-  Ve -- nez à lui! Ve -- nez à lui! ve -- nez à lui,
-  car il qou -- rit!
-  Vous qui pas -- sez!...
-  % Rehearsal 25
-  Vous qui pas -- sez, Ve -- nez, à lui!
-  Vous qui pas -- sez,
-  % Rehearsal 30
-  Ve -- nez à lui!
-  Vous qui pas -- sez, vous qui pas -- sez, Ve -- nez à lui!
-  ve -- nez à lui!
-  % Rehearsal 35
-  car id de -- meu -- re! Ve -- nez ve -- nez à lui!
-  ve -- nez, 
-  % Rehearsal 40
-  ve -- nez à  lui! car il de -- meu -- re! car il de -- meu -- re! 
+  \tag #'french {
+    Vous qui pleu -- rez, vous qui pleu -- rez,
+    Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
+    ve -- nez à ce Dieu, car il pleu -- re! 
+    Ve -- nez à ce Dieu, car il pleu -- re.
+    % Rehearsal 10
+    Vous qui souf -- fez! vous qui souf -- fez,
+    Ve -- nez, ve -- nez à lui!
+    Vous qui souf -- fez, 
+    % Rehearsal 15
+    Ve nez, ve -- nez à lui,
+    car il gué -- rit!
+    Vous qui trem -- blez!...
+    vous qui tem -- blez!...
+    % Rehearsal 20 
+    Ve -- nez à lui! Ve -- nez à lui! ve -- nez à lui,
+    car il qou -- rit!
+    Vous qui pas -- sez!...
+    % Rehearsal 25
+    Vous qui pas -- sez, Ve -- nez, à lui!
+    Vous qui pas -- sez,
+    % Rehearsal 30
+    Ve -- nez à lui!
+    Vous qui pas -- sez, vous qui pas -- sez, Ve -- nez à lui!
+    ve -- nez à lui!
+    % Rehearsal 35
+    car id de -- meu -- re! Ve -- nez ve -- nez à lui!
+    ve -- nez, 
+    % Rehearsal 40
+    ve -- nez à  lui! car il de -- meu -- re! car il de -- meu -- re! 
+  }
+  \tag #'english {
+    All you who mourn, all you who mourn,
+    Come now to the Lord, come now to the Lord,
+    come now to the Lord, for He mour -- neth!
+    Come now to the Lord, for He mour -- neth.
+    % Rehearsal 10
+    All you who ache! all you who ache,
+    Come now, come now to Him!
+    All you who ache,
+    % Rehearsal 15
+    Come now come now to Him,
+    for he doth soothe!
+    All you who trem -- ble!...
+    all you who trem -- ble!...
+    % Rehearsal 20 
+    Come now to Him! Come now to Him! come now to Him,
+    for he doth calm!
+    All you who die!...
+    % Rehearsal 25
+    All you who die, Come now to Him!
+    All you who die,
+    % Rehearsal 30
+    Come now to Him!
+    All you who die, all you who die, Come now to Him!
+    come now to Him!
+    % Rehearsal 35
+    for he en -- du -- reth! Come now, come now to Him!
+    come now,
+    % Rehearsal 40
+    Come now to Him! for he en -- du -- reth! for he en -- du -- reth!
+  }
 }
 tenornotes = \relative c' {
   \clef "G_8"
@@ -247,8 +325,14 @@ tenornotes = \relative c' {
   } \new Voice {
     \voiceTwo aes2~ aes4
   } >> \oneVoice r |
-  c4\p\< c8 c\! c r8 r4 |
-  c\cresc c8 c c r r c\f |
+  c4\p\< c8 c\! c
+  \tag #'english { c }
+  \tag #'french { r }
+  r4 |
+  c\cresc c8 c c
+  \tag #'english { c }
+  \tag #'french { r }
+  r c\f |
   ees8. d16 d4~ d8 r d4\ff | % Rehearsal 20
   d8. ees16 ees4~ ees8 c\dim b c |
   d8 r << {
@@ -343,36 +427,69 @@ tenornotes = \relative c' {
   c2~ c4 r |
 }
 tenorwords = \lyricmode {
-  Vous qui pleu -- rez, vous qui pleu -- rez,
-  Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
-  ve -- nez à ce Dieu, car il pleu -- re! 
-  Ve -- nez à ce Dieu, car il pleu -- re.
-  % Rehearsal 10
-  Vous qui souf -- fez! Vous qui souf -- fez! vous qui souf -- fez,
-  Ve -- nez, ve -- nez à lui!
-  Vous qui souf -- fez, 
-  % Rehearsal 15
-  Ve nez, ve -- nez à lui,
-  car il gué -- rit!
-  Vous qui trem -- blez!...
-  vous qui tem -- blez!...
-  % Rehearsal 20 
-  Ve -- nez à lui! Ve -- nez à lui! ve -- nez à lui,
-  car il qou -- rit!
-  Vous qui pas -- sez!...
-  % Rehearsal 25
-  Vous qui pas -- sez!...
-  Vous qui pas -- sez, Ve -- nez, à lui!
-  Vous qui pas -- sez,
-  % Rehearsal 30
-  Ve -- nez à lui!
-  Vous qui pas -- sez, vous qui pas -- sez, Ve -- nez à lui!
-  ve -- nez à lui!
-  % Rehearsal 35
-  car id de -- meu -- re! Ve -- nez ve -- nez à lui!
-  ve -- nez, 
-  % Rehearsal 40
-  ve -- nez à  lui! car il de -- meu -- re! car il de -- meu -- re! 
+  \tag #'french {
+    Vous qui pleu -- rez, vous qui pleu -- rez,
+    Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
+    ve -- nez à ce Dieu, car il pleu -- re! 
+    Ve -- nez à ce Dieu, car il pleu -- re.
+    % Rehearsal 10
+    Vous qui souf -- fez! Vous qui souf -- fez! vous qui souf -- fez,
+    Ve -- nez, ve -- nez à lui!
+    Vous qui souf -- fez, 
+    % Rehearsal 15
+    Ve nez, ve -- nez à lui,
+    car il gué -- rit!
+    Vous qui trem -- blez!...
+    vous qui tem -- blez!...
+    % Rehearsal 20 
+    Ve -- nez à lui! Ve -- nez à lui! ve -- nez à lui,
+    car il qou -- rit!
+    Vous qui pas -- sez!...
+    % Rehearsal 25
+    Vous qui pas -- sez!...
+    Vous qui pas -- sez, Ve -- nez, à lui!
+    Vous qui pas -- sez,
+    % Rehearsal 30
+    Ve -- nez à lui!
+    Vous qui pas -- sez, vous qui pas -- sez, Ve -- nez à lui!
+    ve -- nez à lui!
+    % Rehearsal 35
+    car id de -- meu -- re! Ve -- nez ve -- nez à lui!
+    ve -- nez, 
+    % Rehearsal 40
+    ve -- nez à  lui! car il de -- meu -- re! car il de -- meu -- re! 
+  }
+  \tag #'english {
+    All you who mourn, all you who mourn,
+    Come now to the Lord, come now to the Lord,
+    come now to the Lord, for He mour -- neth!
+    Come now to the Lord, for He mour -- neth.
+    % Rehearsal 10
+    All you who ache! All you who ache! all you who ache,
+    Come now, come now to Him!
+    All you who ache,
+    % Rehearsal 15
+    Come now come now to Him,
+    for he doth soothe!
+    All you who trem -- ble!...
+    all you who trem -- ble!...
+    % Rehearsal 20 
+    Come now to Him! Come now to Him! come now to Him,
+    for he doth calm!
+    All you who die!...
+    % Rehearsal 25
+    All you who die, All you who die, Come now to Him!
+    All you who die,
+    % Rehearsal 30
+    Come now to Him!
+    All you who die, all you who die, Come now to Him!
+    come now to Him!
+    % Rehearsal 35
+    for he en -- du -- reth! Come now, come now to Him!
+    come now,
+    % Rehearsal 40
+    Come now to Him! for he en -- du -- reth! for he en -- du -- reth!
+  }
 }
 
 bassnotes = \relative c' {
@@ -406,8 +523,14 @@ bassnotes = \relative c' {
   } \new Voice {
     \voiceTwo aes,2~ aes4
   } >> \oneVoice r |
-  aes'4\p\< aes8 aes\! aes r r4 |
-  aes4\cresc aes8 aes aes r r aes\f |
+  aes'4\p\< aes8 aes\! aes
+  \tag #'english { aes }
+  \tag #'french { r }
+  r4 |
+  aes4\cresc aes8 aes aes
+  \tag #'english { aes }
+  \tag #'french { r }
+  r aes\f |
   g8. g16 g4~ g8 r b4\ff | % Rehearsal 20
   b8. c16 c4~ c8 c,\dim d ees |
   d8 r d4 d4. d8 |
@@ -489,40 +612,73 @@ bassnotes = \relative c' {
   } >> \oneVoice r4 |
 }
 basswords = \lyricmode {
-  Vous qui pleu -- rez, vous qui pleu -- rez,
-  Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
-  ve -- nez à ce Dieu, car il pleu -- re! 
-  Ve -- nez à ce Dieu, car il pleu -- re.
-  % Rehearsal 10
-  Vous qui souf -- fez! vous qui souf -- fez,
-  Ve -- nez, ve -- nez à lui!
-  Vous qui souf -- fez, 
-  % Rehearsal 15
-  Ve nez, ve -- nez à lui,
-  car il gué -- rit!
-  Vous qui trem -- blez!...
-  vous qui tem -- blez!...
-  % Rehearsal 20 
-  Ve -- nez à lui! Ve -- nez à lui! ve -- nez à lui,
-  car il qou -- rit!
-  Vous qui pas -- sez!...
-  % Rehearsal 25
-  Vous qui pas -- sez!...
-  Vous qui pas -- sez, Ve -- nez, à lui!
-  Vous qui pas -- sez,
-  % Rehearsal 30
-  Ve -- nez à lui!
-  Vous qui pas -- sez, vous qui pas -- sez, Ve -- nez à lui!
-  ve -- nez à lui!
-  % Rehearsal 35
-  car id de -- meu -- re! Ve -- nez ve -- nez à lui!
-  ve -- nez, 
-  % Rehearsal 40
-  ve -- nez à  lui! car il de -- meu -- re! car il de -- meu -- re! 
+  \tag #'french {
+    Vous qui pleu -- rez, vous qui pleu -- rez,
+    Ve -- nez à ce Dieu, ve -- nez à ce Dieu, 
+    ve -- nez à ce Dieu, car il pleu -- re! 
+    Ve -- nez à ce Dieu, car il pleu -- re.
+    % Rehearsal 10
+    Vous qui souf -- fez! vous qui souf -- fez,
+    Ve -- nez, ve -- nez à lui!
+    Vous qui souf -- fez, 
+    % Rehearsal 15
+    Ve nez, ve -- nez à lui,
+    car il gué -- rit!
+    Vous qui trem -- blez!...
+    vous qui tem -- blez!...
+    % Rehearsal 20 
+    Ve -- nez à lui! Ve -- nez à lui! ve -- nez à lui,
+    car il qou -- rit!
+    Vous qui pas -- sez!...
+    % Rehearsal 25
+    Vous qui pas -- sez!...
+    Vous qui pas -- sez, Ve -- nez, à lui!
+    Vous qui pas -- sez,
+    % Rehearsal 30
+    Ve -- nez à lui!
+    Vous qui pas -- sez, vous qui pas -- sez, Ve -- nez à lui!
+    ve -- nez à lui!
+    % Rehearsal 35
+    car id de -- meu -- re! Ve -- nez ve -- nez à lui!
+    ve -- nez, 
+    % Rehearsal 40
+    ve -- nez à  lui! car il de -- meu -- re! car il de -- meu -- re! 
+  }
+  \tag #'english {
+    All you who mourn, all you who mourn,
+    Come now to the Lord, come now to the Lord,
+    come now to the Lord, for He mour -- neth!
+    Come now to the Lord, for He mour -- neth.
+    % Rehearsal 10
+    All you who ache! all you who ache,
+    Come now, come now to Him!
+    All you who ache,
+    % Rehearsal 15
+    Come now come now to Him,
+    for he doth soothe!
+    All you who trem -- ble!...
+    all you who trem -- ble!...
+    % Rehearsal 20 
+    Come now to Him! Come now to Him! come now to Him,
+    for he doth calm!
+    All you who die!...
+    % Rehearsal 25
+    All you who die, All you who die, Come now to Him!
+    All you who die,
+    % Rehearsal 30
+    Come now to Him!
+    All you who die, all you who die, Come now to Him!
+    come now to Him!
+    % Rehearsal 35
+    for he en -- du -- reth! Come now, come now to Him!
+    come now,
+    % Rehearsal 40
+    Come now to Him! for he en -- du -- reth! for he en -- du -- reth!
+  }
 }
 
 \score {
-  \new ChoirStaff <<
+  \keepWithTag #'french \new ChoirStaff <<
     \new Staff  <<
       \new Voice = "soprano" <<
         \global
