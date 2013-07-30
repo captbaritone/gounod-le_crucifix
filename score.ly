@@ -12,8 +12,8 @@ rit = \markup{ \italic \larger "rit." }
   }
   poet = \markup {
     \left-column {
-    "Vicrot Hugo"
-    "(1802-1885)"
+    "Richard Benefield"
+    "(after poem by Victor Hugo)"
     }
   }
   texttranslator = "Richard Benefield"
@@ -119,35 +119,35 @@ sopranowords = \lyricmode {
     ve -- nez à  lui! car il de -- meu -- re! car il de -- meu -- re! 
   }
   \tag #'english {
-    All you who mourn, all you who mourn,
-    Come now to the Lord, come now to the Lord,
-    come now to the Lord, for He mour -- neth!
+    All you who mourn, All you who mourn,
+    come now to the Lord, come now to the Lord,
+    come now to the Lord, for He mour -- neth.
     Come now to the Lord, for He mour -- neth.
     % Rehearsal 10
-    All you who ache! all you who ache,
-    Come now, come now to Him!
+    All you who ache, All you who ache,
+    come now, come now to Him,
     All you who ache,
     % Rehearsal 15
-    Come now come now to Him,
-    for he doth soothe!
-    All you who trem -- ble!...
-    all you who trem -- ble!...
+    come now, come now to Him,
+    for he doth soothe.
+    All you who trem -- ble,
+    All you who trem -- ble,
     % Rehearsal 20 
-    Come now to Him! Come now to Him! come now to Him,
-    for he doth calm!
-    All you who die!...
+    come now to Him, come now to Him, come now to Him,
+    for he doth calm.
+    All you who die,
     % Rehearsal 25
-    All you who die, Come now, come now to Him!
+    All you who die, come now, come now to Him,
     All you who die,
     % Rehearsal 30
-    Come now come now to Him!
-    All you who die, all you who die, Come now to Him!
-    come now to Him!
+    come now, come now to Him,
+    All you who die, All you who die, come now to Him,
+    come now to Him,
     % Rehearsal 35
-    for he en -- du -- reth! Come now, come now to Him!
+    for he en -- du -- reth. Come now, come now to Him,
     come now,
     % Rehearsal 40
-    come now to Him! for he en -- du -- reth! for he en -- du -- reth!
+    come now to Him, for he en -- du -- reth, for he en -- du -- reth.
   }
 }
 altonotes = \relative c' {
@@ -238,35 +238,35 @@ altowords = \lyricmode {
     ve -- nez à  lui! car il de -- meu -- re! car il de -- meu -- re! 
   }
   \tag #'english {
-    All you who mourn, all you who mourn,
-    Come now to the Lord, come now to the Lord,
-    come now to the Lord, for He mour -- neth!
+    All you who mourn, All you who mourn,
+    come now to the Lord, come now to the Lord,
+    come now to the Lord, for He mour -- neth.
     Come now to the Lord, for He mour -- neth.
     % Rehearsal 10
-    All you who ache! all you who ache,
-    Come now, come now to Him!
+    All you who ache, All you who ache,
+    come now, come now to Him,
     All you who ache,
     % Rehearsal 15
-    Come now come now to Him,
-    for he doth soothe!
-    All you who trem -- ble!...
-    all you who trem -- ble!...
+    come now, come now to Him,
+    for he doth soothe.
+    All you who trem -- ble,
+    All you who trem -- ble,
     % Rehearsal 20 
-    Come now to Him! Come now to Him! come now to Him,
-    for he doth calm!
-    All you who die!...
+    come now to Him, come now to Him, come now to Him,
+    for he doth calm.
+    All you who die,
     % Rehearsal 25
-    All you who die, Come now to Him!
+    All you who die, come now to Him,
     All you who die,
     % Rehearsal 30
-    Come now to Him!
-    All you who die, all you who die, Come now to Him!
-    come now to Him!
+    come now to Him,
+    All you who die, All you who die, come now to Him,
+    come now to Him,
     % Rehearsal 35
-    for he en -- du -- reth! Come now, come now to Him!
+    for he en -- du -- reth. Come now, come now to Him,
     come now,
     % Rehearsal 40
-    Come now to Him! for he en -- du -- reth! for he en -- du -- reth!
+    come now to Him, for he en -- du -- reth, for he en -- du -- reth.
   }
 }
 tenornotes = \relative c' {
@@ -460,35 +460,36 @@ tenorwords = \lyricmode {
     ve -- nez à  lui! car il de -- meu -- re! car il de -- meu -- re! 
   }
   \tag #'english {
-    All you who mourn, all you who mourn,
-    Come now to the Lord, come now to the Lord,
-    come now to the Lord, for He mour -- neth!
+    All you who mourn, All you who mourn,
+    come now to the Lord, come now to the Lord,
+    come now to the Lord, for He mour -- neth.
     Come now to the Lord, for He mour -- neth.
     % Rehearsal 10
-    All you who ache! All you who ache! all you who ache,
-    Come now, come now to Him!
+    All you who ache,
+    All you who ache, All you who ache,
+    come now, come now to Him.
     All you who ache,
     % Rehearsal 15
-    Come now come now to Him,
-    for he doth soothe!
-    All you who trem -- ble!...
-    all you who trem -- ble!...
+    come now, come now to Him,
+    for he doth soothe.
+    All you who trem -- ble,
+    All you who trem -- ble,
     % Rehearsal 20 
-    Come now to Him! Come now to Him! come now to Him,
-    for he doth calm!
-    All you who die!...
+    come now to Him, come now to Him, come now to Him,
+    for he doth calm.
+    All you who die,
     % Rehearsal 25
-    All you who die, All you who die, Come now to Him!
+    All you who die, All you who die, come now to Him,
     All you who die,
     % Rehearsal 30
-    Come now to Him!
-    All you who die, all you who die, Come now to Him!
-    come now to Him!
+    come now to Him,
+    All you who die, All you who die, come now to Him,
+    come now to Him,
     % Rehearsal 35
-    for he en -- du -- reth! Come now, come now to Him!
+    for he en -- du -- reth. Come now, come now to Him,
     come now,
     % Rehearsal 40
-    Come now to Him! for he en -- du -- reth! for he en -- du -- reth!
+    come now to Him, for he en -- du -- reth, for he en -- du -- reth.
   }
 }
 
@@ -645,40 +646,40 @@ basswords = \lyricmode {
     ve -- nez à  lui! car il de -- meu -- re! car il de -- meu -- re! 
   }
   \tag #'english {
-    All you who mourn, all you who mourn,
-    Come now to the Lord, come now to the Lord,
-    come now to the Lord, for He mour -- neth!
+    All you who mourn, All you who mourn,
+    come now to the Lord, come now to the Lord,
+    come now to the Lord, for He mour -- neth.
     Come now to the Lord, for He mour -- neth.
     % Rehearsal 10
-    All you who ache! all you who ache,
-    Come now, come now to Him!
+    All you who ache, All you who ache,
+    come now, come now to Him,
     All you who ache,
     % Rehearsal 15
-    Come now come now to Him,
-    for he doth soothe!
-    All you who trem -- ble!...
-    all you who trem -- ble!...
+    come now come now to Him,
+    for he doth soothe.
+    All you who trem -- ble,
+    All you who trem -- ble,
     % Rehearsal 20 
-    Come now to Him! Come now to Him! come now to Him,
-    for he doth calm!
-    All you who die!...
+    come now to Him, come now to Him, come now to Him,
+    for he doth calm.
+    All you who die,
     % Rehearsal 25
-    All you who die, All you who die, Come now to Him!
+    All you who die, All you who die, come now to Him,
     All you who die,
     % Rehearsal 30
-    Come now to Him!
-    All you who die, all you who die, Come now to Him!
-    come now to Him!
+    come now to Him,
+    All you who die, All you who die, come now to Him,
+    come now to Him,
     % Rehearsal 35
-    for he en -- du -- reth! Come now, come now to Him!
+    for he en -- du -- reth. Come now, come now to Him,
     come now,
     % Rehearsal 40
-    Come now to Him! for he en -- du -- reth! for he en -- du -- reth!
+    come now to Him, for he en -- du -- reth, for he en -- du -- reth.
   }
 }
 
 \score {
-  \keepWithTag #'french \new ChoirStaff <<
+  \keepWithTag #'english \new ChoirStaff <<
     \new Staff  <<
       \new Voice = "soprano" <<
         \global
@@ -714,7 +715,7 @@ basswords = \lyricmode {
       \override SpacingSpanner
         % Not really sure what 1 100 means, but it seems to be giving a nice
         % horizontal spacing
-        #'base-shortest-duration = #(ly:make-moment 1 100)
+        #'common-shortest-duration = #(ly:make-moment 1 100)
     }
   }
   \midi {
