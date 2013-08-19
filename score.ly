@@ -12,8 +12,10 @@ rit = \markup{ \italic \larger "rit." }
   }
   poet = \markup {
     \left-column {
-    "Richard Benefield"
-    "(after poem by Victor Hugo)"
+    "Victor Hugo"
+    "(1802-1885)"
+    %"Richard Benefield"
+    %"(after poem by Victor Hugo)"
     }
   }
   texttranslator = "Richard Benefield"
@@ -61,7 +63,7 @@ sopranonotes = \relative c'' {
   c8. b16 b4~ b8 r f'4\ff | % Rehearsal 20
   f8. ees16 ees4~ ees8 ees\dim d c |
   b8 r g4 b4. a8 |
-  g2~ g4 r |
+  g2~\p g4 r |
   g2\ff aes?8( bes ) c( d ) |
   g,2~ g8 r r4 | % Rehearsal 25
   R1 \bar "||"
@@ -77,9 +79,9 @@ sopranonotes = \relative c'' {
   c4~ c8 r e,4 a8. g16 | % Rehearsal 35 
   << g1 { s2 s2\dim } >> |
   c,8\p r g'( a ) g2~\< |
-  g8\! r d'( c ) c\>( b ) a( g ) |
+  g8\! r d'\mf ( c ) c\>( b ) a( g ) |
   c\p r g( a ) g2~\< |
-  g8\! r e'( d ) c\>( b ) a( g ) | % Rehearsal 40
+  g8\! r e'\mf ( d ) c\>( b ) a( g ) | % Rehearsal 40
   c4\p r g\ff g8. g16 |
   a1 |
   g4 r c\ff c8.^\rit c16 |
@@ -179,7 +181,7 @@ altonotes = \relative c' {
   g8. g16 g4~ g8 r g4\ff | % Rehearsal 20
   g8. g16 g4~ g8 g\dim g g |
   g r d4 fis4. fis8 |
-  g2~ g4 r |
+  g2~\p g4 r |
   g2\ff aes?8( bes ) c( d ) |
   g,2~ g8 r r4 | % Rehearsal 25
   R1 |
@@ -195,9 +197,9 @@ altonotes = \relative c' {
   g~ g8 r e4 e8. e16 | % Rehearsal 35
   << d1 { s2 s\dim } >> |
   c4\p r4 r e\< |
-  f\! f f\> f |
+  f\! f\mf f\> f |
   e2~\p e8 r e4\p\< |
-  f\! f f\> f | % Rehearsal 40
+  f\! f\mf f\> f | % Rehearsal 40
   e\p r g\ff g8. g16 |
   g2( f ) |
   e4 r g\ff g8.^\rit g16 |
@@ -341,7 +343,7 @@ tenornotes = \relative c' {
     \voiceTwo b4 c4. c8
   } >> \oneVoice |
   << {
-    \voiceOne d2~ d4
+    \voiceOne d2~\p d4
   } \new Voice {
     \voiceTwo b2~ b4
   } >> \oneVoice r4 |
@@ -398,7 +400,7 @@ tenornotes = \relative c' {
     \voiceTwo g
   } >> \oneVoice \oneVoice |
   << {
-    \voiceOne b\! g a\> b
+    \voiceOne b\! g\mf a\> b
   } \new Voice {
     \voiceTwo g g g g
   } >> \oneVoice |
@@ -412,7 +414,7 @@ tenornotes = \relative c' {
     \voiceTwo g
   } >> \oneVoice |
   << {
-    \voiceOne b4\! f' d\> b
+    \voiceOne b4\! f'\mf d\> b
   } \new Voice {
     \voiceTwo g g g g
   } >> \oneVoice | % Rehearsal 40
@@ -535,7 +537,7 @@ bassnotes = \relative c' {
   g8. g16 g4~ g8 r b4\ff | % Rehearsal 20
   b8. c16 c4~ c8 c,\dim d ees |
   d8 r d4 d4. d8 |
-  g2~ g4 r |
+  g2~\p g4 r |
   g2\ff aes?8( bes ) c( d ) |
   g,2~ g8 r r4 | % Rehearsal 25
   << {
@@ -576,7 +578,7 @@ bassnotes = \relative c' {
     \voiceTwo c
   } >> \oneVoice |
   << {
-    \voiceOne d\! d d\> d
+    \voiceOne d\! d\mf d\> d
   } \new Voice {
     \voiceTwo c c c c
   } >> \oneVoice |
@@ -590,7 +592,7 @@ bassnotes = \relative c' {
     \voiceTwo c
   } >> \oneVoice |
   << {
-    \voiceOne d\! d d\> d
+    \voiceOne d\! d\mf d\> d
   } \new Voice {
     \voiceTwo c c c c
   } >> \oneVoice | % Rehearsal 40
@@ -679,7 +681,7 @@ basswords = \lyricmode {
 }
 
 \score {
-  \keepWithTag #'english \new ChoirStaff <<
+  \keepWithTag #'french \new ChoirStaff <<
     \new Staff  <<
       \new Voice = "soprano" <<
         \global
