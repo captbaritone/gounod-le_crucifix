@@ -27,7 +27,7 @@ rit = \markup{ \italic \larger "rit." }
   tagline = \markup {
     \center-column {
       "This edition licensed under a Creative Commons Attribution 3.0 Unported License."
-      "v1.0 send corrections to jordaneldredge@gmail.com"
+      "v1.1 send corrections to jordaneldredge@gmail.com"
     }
   }
 }
