@@ -24,7 +24,12 @@ rit = \markup{ \italic \larger "rit." }
   subtitle = "for SATB Chorus, a cappella"
   copyright = "Public Domain"
   enteredby = "Jordan Eldredge <jordaneldredge@gmail.com>"
-  tagline = "v1.0 send corrections to jordaneldredge@gmail.com"
+  tagline = \markup {
+    \center-column {
+      "This edition licensed under a Creative Commons Attribution 3.0 Unported License."
+      "v1.0 send corrections to jordaneldredge@gmail.com"
+    }
+  }
 }
 global = {
   \key es \major

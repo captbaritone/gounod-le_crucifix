@@ -53,6 +53,9 @@ And replace it with this line:
 
     \keepWithTag #'english \new ChoirStaff <<
 
+You will also need to change the lines that a commented out for the poet value
+in the header.
+
 Then issue the command from the "How do I compile the French pdf?" section
 above.
 
