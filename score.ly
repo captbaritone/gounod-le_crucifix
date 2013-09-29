@@ -24,7 +24,7 @@ rit = \markup{ \italic \larger "rit." }
   subtitle = "for SATB Chorus, a cappella"
   copyright = "Public Domain"
   enteredby = "Jordan Eldredge <jordaneldredge@gmail.com>"
-  tagline = "v0.3 send corrections to jordaneldredge@gmail.com"
+  tagline = "v1.0 send corrections to jordaneldredge@gmail.com"
 }
 global = {
   \key es \major
