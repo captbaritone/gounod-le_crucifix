@@ -198,7 +198,7 @@ altonotes = \relative c' {
   << d1 { s2 s\dim } >> |
   c4\p r4 r e\< |
   f\! f\mf f\> f |
-  e2~\p e8 r e4\p\< |
+  e2~\p e8 r e4\< |
   f\! f\mf f\> f | % Rehearsal 40
   e\p r g\ff g8. g16 |
   g2( f ) |
@@ -409,7 +409,7 @@ tenornotes = \relative c' {
   } \new Voice {
     \voiceTwo g2~ g8
   } >> \oneVoice r8 << {
-    \voiceOne c4\p\<
+    \voiceOne c4\<
   } \new Voice {
     \voiceTwo g
   } >> \oneVoice |
@@ -587,7 +587,7 @@ bassnotes = \relative c' {
   } \new Voice {
     \voiceTwo c2~ c8
   } >> \oneVoice r8 << {
-    \voiceOne e4\p\<
+    \voiceOne e4\<
   } \new Voice {
     \voiceTwo c
   } >> \oneVoice |
