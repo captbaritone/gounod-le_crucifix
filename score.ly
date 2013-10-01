@@ -12,24 +12,19 @@ rit = \markup{ \italic \larger "rit." }
   }
   poet = \markup {
     \left-column {
-    "Victor Hugo"
-    "(1802-1885)"
-    %"Richard Benefield"
-    %"(after poem by Victor Hugo)"
+    %"Victor Hugo"
+    %"(1802-1885)"
+    "Richard Benefield"
+    "(after poem by Victor Hugo)"
     }
   }
   texttranslator = "Richard Benefield"
   % Could use "instrument" but subtitle does not display on every page, so we
   % use it as a convenient alternative
   subtitle = "for SATB Chorus, a cappella"
-  copyright = "Public Domain"
+  copyright = "This edition licensed under a Creative Commons Attribution 3.0 Unported License."
   enteredby = "Jordan Eldredge <jordaneldredge@gmail.com>"
-  tagline = \markup {
-    \center-column {
-      "This edition licensed under a Creative Commons Attribution 3.0 Unported License."
-      "v1.1 send corrections to jordaneldredge@gmail.com"
-    }
-  }
+  tagline = "v1.2 send corrections to jordaneldredge@gmail.com"
 }
 global = {
   \key es \major
@@ -686,7 +681,7 @@ basswords = \lyricmode {
 }
 
 \score {
-  \keepWithTag #'french \new ChoirStaff <<
+  \keepWithTag #'english \new ChoirStaff <<
     \new Staff  <<
       \new Voice = "soprano" <<
         \global
